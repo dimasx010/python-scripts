@@ -1,4 +1,4 @@
-name: Run command Python
+name: 1-Run command Python
 on:
     workflow_dispatch:
 permissions:
