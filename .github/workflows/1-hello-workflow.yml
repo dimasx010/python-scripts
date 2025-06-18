@@ -1,7 +1,7 @@
 name: 1-Run command Python
 on:
     schedule:
-        - cron: '* * * * *' # At every 1 minute
+        - cron: '0 * * * *' # At every hour
     workflow_dispatch: # manually
 permissions:
   contents: write
